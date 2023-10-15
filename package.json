@@ -1,0 +1,11 @@
+{
+  "name": "wp-rebar",
+  "version": "0.1.0",
+  "description": "General scaffolding for WP development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ethan Corey",
+  "license": "MIT"
+}
