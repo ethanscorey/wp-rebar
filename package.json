@@ -4,8 +4,11 @@
   "description": "General scaffolding for WP development",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "wp-env": "wp-env"
   },
   "author": "Ethan Corey",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@wordpress/env": "^8.10.0"
+  }
 }
