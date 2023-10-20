@@ -1,11 +1,11 @@
 {
-  "name": "wp-rebar",
-  "version": "0.1.0",
-  "description": "General scaffolding for WP development",
-  "main": "index.js",
-  "scripts": {
-    "wp-env": "wp-env",
-    "build": "wp-scripts build",
+	"name": "wp-rebar",
+	"version": "0.1.0",
+	"description": "General scaffolding for WP development",
+	"main": "index.js",
+	"scripts": {
+		"wp-env": "wp-env",
+		"build": "wp-scripts build",
 		"check-engines": "wp-scripts check-engines",
 		"check-licenses": "wp-scripts check-licenses",
 		"format": "wp-scripts format",
@@ -18,11 +18,15 @@
 		"start": "wp-scripts start",
 		"test:e2e": "wp-scripts test-e2e",
 		"test:unit": "wp-scripts test-unit-js"
-  },
-  "author": "Ethan Corey",
-  "license": "MIT",
-  "devDependencies": {
-    "@wordpress/env": "^8.10.0",
-    "@wordpress/scripts": "^26.15.0"
-  }
+	},
+	"prettier": "@wordpress/prettier-config",
+	"stylelint": {
+		"extends": "@wordpress/stylelint-config/scss"
+	},
+	"author": "Ethan Corey",
+	"license": "MIT",
+	"devDependencies": {
+		"@wordpress/env": "^8.10.0",
+		"@wordpress/scripts": "^26.15.0"
+	}
 }
